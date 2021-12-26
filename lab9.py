@@ -17,3 +17,6 @@ def display_the_number_of_symbols(symbols):
             new_symbol_list.append(each_symbol)
     for each_final_symbol in new_symbol_list:
         print("Symbol ", each_final_symbol, "found ", symbols.count(each_final_symbol), " times")
+        
+symbol_list = input_to_list()
+display_the_number_of_symbols(symbol_list)
